@@ -67,6 +67,7 @@ class ViewController: UIViewController, UIWebViewDelegate, UITextFieldDelegate, 
                 
                 if stackView.arrangedSubviews.count == 0 {
                     setDefaultTitle()
+                    addressBar.text = nil
                 } else {
                     var currentIndex = Int(index)
                     
